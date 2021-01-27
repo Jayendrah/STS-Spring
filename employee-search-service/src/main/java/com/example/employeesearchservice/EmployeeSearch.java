@@ -1,8 +1,6 @@
-package com.example.employeesearchservice.controller;
+package com.example.employeesearchservice;
 
 import java.util.List;
-
-import com.example.employeesearchservice.entity.Employee;
 public interface EmployeeSearch {
 	public Employee getEmployeeById(int id);
 	public String addEmployee(Employee emp);

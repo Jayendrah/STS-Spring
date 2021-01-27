@@ -1,4 +1,4 @@
-package com.example.employeesearchservice.entity;
+package com.example.employeesearchservice;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

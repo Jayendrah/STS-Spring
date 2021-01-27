@@ -1,8 +1,6 @@
-package com.example.employeesearchservice.repository;
+package com.example.employeesearchservice;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.example.employeesearchservice.entity.Employee;
 public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
 }
 

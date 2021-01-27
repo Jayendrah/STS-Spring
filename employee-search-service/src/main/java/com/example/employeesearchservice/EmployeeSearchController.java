@@ -1,4 +1,4 @@
-package com.example.employeesearchservice.controller;
+package com.example.employeesearchservice;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.example.employeesearchservice.entity.Employee;
 @RestController
 public class EmployeeSearchController {
 	@Autowired
