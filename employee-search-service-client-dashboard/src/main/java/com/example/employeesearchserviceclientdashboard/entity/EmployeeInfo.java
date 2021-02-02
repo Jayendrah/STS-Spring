@@ -3,7 +3,8 @@ package com.example.employeesearchserviceclientdashboard.entity;
 public class EmployeeInfo {
 	private int eid;
 	private String name;
-	private String designamtion;
+	private String designation;
+	private String emailId;
 	public int getEid() {
 		return eid;
 	}
@@ -16,10 +17,16 @@ public class EmployeeInfo {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getDesignamtion() {
-		return designamtion;
+	public String getDesignation() {
+		return designation;
 	}
-	public void setDesignamtion(String designamtion) {
-		this.designamtion = designamtion;
+	public void setDesignation(String designation) {
+		this.designation = designation;
+	}
+	public String getEmailId() {
+		return emailId;
+	}
+	public void setEmailId(String emailId) {
+		this.emailId = emailId;
 	}
 }
